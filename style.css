@@ -1,0 +1,268 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    border-style: none;
+}
+
+body {
+  font-family: Spartan, sans-serif;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 100vh;
+  min-width: 100%;
+  color: #13273E;
+}
+
+.container-fluid{
+min-height: 100vh;
+min-width: 100%;
+ background: linear-gradient(180deg, rgba(19, 39, 62, 0.85) 0%, rgba(190, 216, 212, 0.7225) 93.75%);
+overflow: hidden;
+}
+
+h1{
+  color: #F7F9F9;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h2{
+  font-weight: 600;
+  padding: 10px;
+}
+
+h3{
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+h4{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+form {
+background: #F7F9F9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+overflow: hidden;
+margin: 10px;
+padding: 20px;
+}
+
+form p{
+  font-weight: 600;
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+}
+form h2{
+  text-align: center;
+}
+label{
+  font-weight: 500;
+  padding: 20px;
+}
+
+.sign{
+background: #13273E;
+color: #F7F9F9;
+border-radius: 8px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+padding: 10px;
+display: inline;
+font-weight: 500;
+}
+
+.sign1{
+background: #BED8D4;
+color: #13273E;
+border-radius: 8px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+padding: 10px;
+display: inline;
+font-weight: 500;
+}
+
+.sign2{
+background: #2176AE;
+color: #F7F9F9;
+border-radius: 8px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+padding: 10px;
+display: inline;
+font-weight: 500;
+}
+
+.start{
+background: #2176AE;
+color: #F7F9F9;
+font-weight: 500;
+border-radius: 8px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+padding: 10px;
+display: inline;
+}
+
+.comp{
+background: #2176AE;
+color: #F7F9F9;
+border-radius: 8px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+padding: 10px;
+display: inline;
+font-weight: 500;
+}
+.doarch{
+background: #BED8D4;
+border-radius: 8px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+padding: 10px;
+display: inline;
+font-weight: 500;
+}
+
+
+
+input[type=text] {
+  background-color: #BED8D4;
+  color: #13273E;
+  border-radius: 5px; 
+  width: 100%;
+  position: relative;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom:20px;
+}
+
+button[type=button] {
+  background-color: #13273E;
+  width: 30%;
+  min-width: 130px;
+  max-width: 140px;
+  margin: auto;
+  height: 43px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  text-align: center;
+  vertical-align: center;
+}
+
+.space{
+  padding-bottom: 10px;
+}
+
+.card{
+  overflow: hidden;
+  border: none;
+  background: #F7F9F9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+.card-header{
+  background-color: #13273E;
+  color: #F7F9F9;
+  margin-bottom: 15px;
+}
+
+.cardcontent{
+  margin: 15px;
+}
+.card-subtitle, 
+.card-text {
+  margin-bottom: 35px;
+
+}
+
+.btn-group{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.btn-group button{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+width:25%;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+font-weight: 600;
+}
+
+.arch{
+  background: #BED8D4;
+}
+
+.done{
+  background:#2176AE;
+  color: #F7F9F9;
+}
+
+.start{
+background: #13273E;
+color: #F7F9F9;
+}
+
+footer{
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+footer section{
+  width:95%;
+  margin: auto;
+}
+
+footer section p{
+  min-width: 25%;
+  margin: auto;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 600;
+  color: #13273E;
+}
+
+
+@media screen and (min-width: 960px) {
+  h1{
+    font-size: 3rem;
+    padding: 30px;
+  }
+  .btn-group{
+    display: block;
+  }
+  .btn-group button{
+    display: block;
+    padding: 5px;
+    width: 80%;
+    margin-top: 10px;
+  }
+  main{
+    margin: 30px;
+  }
+
+}
+
+  @media screen and (max-width: 560px){
+    .btn-group button{
+      font-size: .7rem;
+      padding: 3px;
+      margin-top: 5px;
+    }
+    label{
+      display: block;
+    }
+    input{
+      display: block'
+    }
+
+  }
